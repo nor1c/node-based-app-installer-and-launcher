@@ -1,0 +1,1 @@
+wscript.exe "run.vbs" "launcher.bat"
