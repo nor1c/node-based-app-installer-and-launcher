@@ -1,3 +1,6 @@
-# @echo off
+@echo off
 
-concurrently "cd server && pm2 start dist/main.js --name=pharma-server" "cd app && npm run start"
+cd exe
+start next.exe
+
+concurrently "cd ../server && pm2 start dist/main.js --name=api-server"
